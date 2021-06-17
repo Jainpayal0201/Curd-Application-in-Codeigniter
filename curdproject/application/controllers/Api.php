@@ -16,7 +16,7 @@ public function send_mail($arr) {
         $this->load->library('email');
         $msg=$arr;
         $from = $this->config->item('smtp_user');
-        $to_email = "jainpayal0201@gmail.com"; 
+        $to_email = "jpayal499@gmail.com"; 
         $subject = 'Email Test';
         $message = $msg['msg'];
    
